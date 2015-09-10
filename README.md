@@ -14,7 +14,7 @@ Point is to create script that can automatically
 - copy config from original or create config teplate for Prospero X-1 or 1.5
 - prepare start and shutdown scripts to allow simple control over ssh (ssh miner 'sh start/stop' or similar)
 
-So here is some possibility to disable Blackaroow default control system (uncluding webUI) 
+So here is some possibility to disable Blackarrow default control system (uncluding webUI) 
 by simple editing file "/startServices.sh" 
 This lines need to be deleted or rather commented:
 - /etc/init.d/php5-fpm start
