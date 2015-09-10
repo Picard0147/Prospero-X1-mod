@@ -1,0 +1,4 @@
+sudo killall bamc.sh > /dev/null
+sudo killall mono > /dev/null
+sudo killall cgminer > /dev/null
+sudo /etc/init.d/nginx stop > /dev/null
