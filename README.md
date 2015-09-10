@@ -20,6 +20,7 @@ This lines need to be deleted or rather commented:
 - /etc/init.d/php5-fpm start
 - /etc/init.d/nginx start
 - /etc/init.d/bamc start
-
+after that you need to reboot miner. 
+I can only recomend to do it by long press on power btn and then tap ok on screen.
 It's possibly key to make life with Prospero easier but I have to test it.
 
