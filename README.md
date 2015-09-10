@@ -14,16 +14,12 @@ Point is to create script that can automatically
 - copy config from original or create config teplate for Prospero X-1 or 1.5
 - prepare start and shutdown scripts to allow simple control over ssh (ssh miner 'sh start/stop' or similar)
 
-So here is some possibility to disable Blackaroow default control system (uncluding webUI) by simple editing file "/startServices.sh" 
-/etc/init.d/ntp start
-/etc/init.d/ssh start
-/etc/init.d/php5-fpm start  //need to be deleted or preferably commented out 
-/etc/init.d/nginx start     //need to be deleted or preferably commented out
-chmod a+rw /dev/spidev0.0
-chmod 666 /dev/ttyS0
-chmod 666 /dev/ttyS3
-/etc/init.d/bamc start      //need to be deleted or preferably commented out
-ifconfig eth0
+So here is some possibility to disable Blackaroow default control system (uncluding webUI) 
+by simple editing file "/startServices.sh" 
+This lines need to be deleted or rather commented:
+- /etc/init.d/php5-fpm start
+- /etc/init.d/nginx start
+- /etc/init.d/bamc start
 
 It's possibly key to make life with Prospero easier but I have to test it.
 
